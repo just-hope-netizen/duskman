@@ -1,0 +1,17 @@
+{
+    "current": "default",
+    "presets": {
+        "default": {
+            "body_text": "#000000",
+            "background": "linear-gradient(#ffffff, #000000)",
+            "heading_font": "helvetica_n4",
+            "font_size": 16
+        },
+        "option2": {
+            "body_text": "#000000",
+            "background": "linear-gradient(#000000, #ffffff)",
+            "heading_font": "sans-serif",
+            "font_size": 14
+        }
+    }
+}

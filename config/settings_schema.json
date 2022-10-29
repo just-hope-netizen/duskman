@@ -1,0 +1,48 @@
+[
+    {
+        "name": "theme_info",
+        "theme_name": "duskman",
+        "theme_author": "hope",
+        "theme_version": "0.1.1",
+        "theme_documentation_url": "https://hope-peter.tech/documentation",
+        "theme_support_email": "hopepeter007@gmail.com"
+    },
+    {
+        "name": "color",
+        "settings": [
+            {
+                "type": "color",
+                "id": "body_text",
+                "label": "Body text",
+                "default": "#000000"
+            },
+            {
+                "type": "color_background",
+                "id": "background",
+                "label": "Background",
+                "default": "linear-gradient(#ffffff, #000000)"
+            }
+        ]
+    },
+    {
+        "name": "typography",
+        "settings": [
+           {
+            "type": "font_picker",
+            "id": "heading_font",
+            "label": "Heading font",
+            "default": "helvetica_n4"
+        },
+        {
+            "type": "range",
+            "id": "font_size",
+            "min": 12,
+            "max": 24,
+            "step": 1,
+            "unit": "px",
+            "label": "Font size",
+            "default": 16
+        }
+        ]
+    }
+]
